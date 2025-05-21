@@ -188,13 +188,13 @@ def salvar_jogo():
     dados[6]['third_infernal'] = third_infernal_desbloqueado
     dados[7]['second_infernal'] = second_infernal_desbloqueado
     with open('dados.json', 'w') as arquivo:
-        json.dump(dados, arquivo, indent=4)
+        json.dump(dados, asrquivo, indent=4)
 
 def ir_para_proxima_dificudade():
                 global dificuldade
-                if second_infernal_desbloqueado:
-                    if dificuldade == "third_infernal":
-                        dificuldade = "second_infernal"
+                # if second_infernal_desbloqueado:
+                #     if dificuldade == "third_infernal":
+                #         dificuldade = "second_infernal"
                 if third_infernal_desbloqueado:
                     if dificuldade == 'glith3':
                         dificuldade = 'third_infernal'

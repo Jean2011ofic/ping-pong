@@ -1,26 +1,26 @@
 [
     {
-        "recorde": 28000
+        "recorde": 0
     },
     {
-        "nightmare": true
+        "nightmare": false
     },
     {
-        "insano": true
+        "insano": false
     },
     {
-        "glith": true
+        "glith": false
     },
     {
-        "glith2": true
+        "glith2": false
     },
     {
-        "glith3": true
+        "glith3": false
     },
     {
-        "third_infernal": true
+        "third_infernal": false
     },
     {
-        "second_infernal": true
+        "second_infernal": false
     }
 ]
